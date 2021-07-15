@@ -22,8 +22,11 @@ const AddMovies = props => {
 
   return (
     <div>
+      
       <label htmlFor="Title">Title</label>&nbsp;
       <input type="text" id="title" ref={titleRef} />
+
+
       <label htmlFor="Opening Text">Opening Text</label>
       <textarea rows="5" id="opening-text" ref={openingTextRef} />
       <label htmlFor="date">Release date</label>
